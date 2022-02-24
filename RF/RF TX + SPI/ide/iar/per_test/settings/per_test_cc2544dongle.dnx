@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <DebugChecksum>
+        <Checksum>2783972236</Checksum>
+    </DebugChecksum>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <Log_file>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </Log_file>
+    <array_types>
+        <Fmt0>char[256]	4	0</Fmt0>
+        <Fmt1>char[4]	4	0</Fmt1>
+        <Fmt2>char[80]	4	0</Fmt2>
+        <Fmt3>char[81]	4	0</Fmt3>
+        <Fmt4>uint8 [80]	4	0</Fmt4>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}1:cb.buffer[30]	0	1</Fmt0>
+        <Fmt1>{W}1:cb.buffer[31]	0	1</Fmt1>
+        <Fmt2>{W}1:cb.buffer[32]	0	1</Fmt2>
+        <Fmt3>{W}1:cb.buffer[33]	0	1</Fmt3>
+        <Fmt4>{W}1:cb.buffer[34]	0	1</Fmt4>
+        <Fmt5>{W}1:cb.buffer[35]	0	1</Fmt5>
+        <Fmt6>{W}1:cb.buffer[36]	0	1</Fmt6>
+        <Fmt7>{W}1:cb.buffer[37]	0	1</Fmt7>
+        <Fmt8>{W}1:cb.buffer[38]	0	1</Fmt8>
+        <Fmt9>{W}1:cb.buffer[39]	0	1</Fmt9>
+        <Fmt10>{W}1:cb.buffer[40]	0	1</Fmt10>
+    </watch_formats>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\TODO JUNTO 2.2\RF TX + SPI\source\apps\per_test\per_test_cc254x.c}.154.7" 0 0 0 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\source\apps\per_test\per_test_cc254x.c}.350.1" 0 0 0 0 "" 0 ""</Bp1>
+        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\source\apps\per_test\per_test_cc254x.c}.350.1" 0 0 0 0 "" 0 ""</Bp2>
+        <Count>3</Count>
+    </Breakpoints>
+    <ChipconEmu>
+        <StopTimersOnHalt>0</StopTimersOnHalt>
+        <LeaveTargetRunning>1</LeaveTargetRunning>
+    </ChipconEmu>
+    <Aliases>
+        <A0>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\Copia de RF ANDANDO\source\components\devices\cc254x\hal_rf_proprietary.c" ""</A0>
+        <A1>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\Copia de RF ANDANDO\source\components\devices\cc254x\hal_sleep.c" ""</A1>
+        <A2>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\Copia de RF ANDANDO\source\components\devices\cc254x\hal_timer2.c" ""</A2>
+        <A3>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\Copia de per test original\source\apps\per_test\per_test_cc254x.c" ""</A3>
+        <A4>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\Copia de per test original\source\components\devices\cc254x\hal_rf_proprietary.c" ""</A4>
+        <A5>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\Copia de per test original\source\components\devices\cc254x\hal_sleep.c" ""</A5>
+        <A6>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\Copia de per test original\source\components\devices\cc254x\hal_timer2.c" ""</A6>
+        <A7>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\TODO JUNTO\RF ANDANDO v2.1\source\apps\per_test\per_test_cc254x.c" ""</A7>
+        <A8>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\TODO JUNTO\RF ANDANDO v2.1\source\components\devices\cc254x\hal_rf_proprietary.c" ""</A8>
+        <A9>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\TODO JUNTO\RF ANDANDO v2.1\source\components\devices\cc254x\hal_sleep.c" ""</A9>
+        <A10>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\TODO JUNTO\RF ANDANDO v2.1\source\components\devices\cc254x\hal_timer2.c" ""</A10>
+        <A11>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\imagen_per\final\RF TX + SPI\source\components\devices\cc254x\hal_rf_proprietary.c" "D:\Downloads\TESIS_EAV\TESIS_EAV\EAV final modificado\RF TX + SPI\source\components\devices\cc254x\hal_rf_proprietary.c"</A11>
+        <A12>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\imagen_per\final\RF TX + SPI\source\components\devices\cc254x\hal_timer2.c" "D:\Downloads\TESIS_EAV\TESIS_EAV\EAV final modificado\RF TX + SPI\source\components\devices\cc254x\hal_timer2.c"</A12>
+        <A13>_ "C:\Documents and Settings\CIA\Escritorio\PRACTICA KM\Workspace\imagen_per\final\RF TX + SPI\source\components\targets\cc2544_dongle\hal_int.c" "D:\Desktop\TESIS\TESIS\EAV final modificado\RF TX + SPI\source\components\common\hal_int.c"</A13>
+        <Count>14</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>
