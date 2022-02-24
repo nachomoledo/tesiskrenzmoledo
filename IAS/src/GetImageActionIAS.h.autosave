@@ -1,0 +1,15 @@
+#ifndef GETIMAGEACTION_H
+#define GETIAMGEACTION_H
+
+#include "Action.h"
+#include "CommLinkMonitor.h"
+
+class GetImageActionIAS : public Action
+{
+private:
+public:
+    GetImageActionIAS();
+    void execute(void) override;
+};
+
+#endif // KEEPALIVEACTION_H

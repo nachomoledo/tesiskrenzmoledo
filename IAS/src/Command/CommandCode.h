@@ -1,0 +1,25 @@
+#ifndef COMMANDCODE_H
+#define COMMANDCODE_H
+
+enum class CommandCode : unsigned char {
+    KEEPALIVE_REQ = 0x10,
+    KEEPALIVE_RES = 0x11,
+    CROP_REQ = 0x20,
+    IMAGE_HQ_REQ = 0X30,
+    IMAGE_HQ_RES = 0X31,
+    IMAGE_LQ_REQ = 0X32,
+    IMAGE_LQ_RES = 0X33,
+    CATALOG_REQ = 0X40,
+    CATALOG_RES = 0X41,
+    DELETE_REQ = 0X50,
+    CAPTURE_REQ = 0x60,
+    LED_OBC_GET_REQ = 0x70,
+    LED_OBC_GET_RES = 0x71,
+    LED_OBC_SET_REQ = 0x72,
+    LED_IAS_GET_REQ = 0x80,
+    LED_IAS_GET_RES = 0x81,
+    LED_IAS_SET_REQ = 0x82,
+    N_COMMANDS
+};
+
+#endif // COMMANDCODE_H

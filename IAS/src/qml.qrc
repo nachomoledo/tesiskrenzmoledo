@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Screen/Components/CommonButtonView.qml</file>
+        <file>Screen/Components/SwitchButtonView.qml</file>
+        <file>Screen/Components/ButtonColumn.qml</file>
+        <file>Screen/Components/PortSelectorView.qml</file>
+        <file>Screen/Components/InfoTextView.qml</file>
+        <file>Screen/Components/FileView.qml</file>
+        <file>Screen/MainScreen.qml</file>
+        <file>mainIAS.qml</file>
+    </qresource>
+</RCC>

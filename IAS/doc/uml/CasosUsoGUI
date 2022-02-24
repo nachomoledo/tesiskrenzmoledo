@@ -1,0 +1,21 @@
+@startuml
+skinparam monochrome true
+left to right direction
+actor "Usuario" as user
+rectangle "Interfaz Gráfica de Usuario" {
+  usecase "Conectarse al microsatélite" as UC1
+  usecase "Capturar imágenes" as UC2
+  usecase "Listar imágenes" as UC3
+  usecase "Descargar imágenes" as UC4
+  usecase "Borrar imágenes" as UC5
+  usecase "Previsualizar imágenes" as UC6
+  usecase "Recortar imágenes" as UC7
+}
+user --> UC1
+user --> UC2
+user --> UC3
+UC3 ..> UC4
+UC3 ..> UC5
+UC3 ..> UC6
+UC6 ..> UC7
+@enduml

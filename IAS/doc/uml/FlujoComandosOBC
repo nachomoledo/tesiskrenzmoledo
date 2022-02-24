@@ -1,0 +1,15 @@
+@startuml
+skinparam monochrome true
+start
+:Comando llega a la OBC desde la ES o la IAS;
+if (¿Es para la OBC?) then (true)
+	:Procesar comando;
+elseif (¿Es de la ES para la IAS?) then (true)
+	:Forwarding OBC->IAS;
+elseif (¿Es de la IAS para la ES?) then (true)
+	:Forwarding OBC->ES;
+else (false)
+	:Descartar comando;
+endif
+stop
+@enduml
